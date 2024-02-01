@@ -18,3 +18,8 @@ myInfoText = myInfoText.replaceAll(
 
 console.log(progammingLanguage);
 console.log(myInfoText);
+
+console.log("первый символ", myInfoText[0]);
+
+console.log(myInfoText.length - 1);
+console.log("последний символ", myInfoText[161]);
