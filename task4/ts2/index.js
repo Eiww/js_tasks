@@ -1,8 +1,20 @@
-let myInfoText = `Всем привет! Меня зовут Юлия. Я изучаю язык программирования JavaScript на курсе по JavaScript у Никита Михайлович. Я уверена, что пройду данный курс до конца!`;
+const myName = "Юлия";
+const progammingLanguage = "JavaScript";
+const courseCreatorName = "Никита Михайлович";
+const reasonText = "потому что это востребованная и прибыльная профессия";
+const numberOfMonth = "3";
 
-let programmingLanguage = "JavaScript".toUpperCase;
-
-newText = myInfoText.replaceAll("JavaScript", programmingLanguage);
+let myInfoText = `Всем привет! Меня зовут ${myName}. 
+Я изучаю язык программирования ${progammingLanguage} на курсе 
+по ${progammingLanguage} у ${courseCreatorName}. 
+Я уверена, что пройду данный курс до конца!`;
 
 console.log(myInfoText);
-console.log(newText);
+
+myInfoText = myInfoText.replaceAll(
+  progammingLanguage,
+  progammingLanguage.toUpperCase()
+);
+
+console.log(progammingLanguage);
+console.log(myInfoText);
