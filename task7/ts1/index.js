@@ -14,7 +14,7 @@ function giveParsel() {
   alert(
     `${peopleWaiting[0]} покидает очередь с посылкой. в очереди ${
       peopleWaiting.length - 1
-    }`
+    } человек`
   );
   peopleWaiting.shift();
 }
