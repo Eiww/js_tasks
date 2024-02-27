@@ -1,0 +1,1 @@
+let getSumOfNumbers = (number, type);
