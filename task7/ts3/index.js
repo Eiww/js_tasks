@@ -9,8 +9,12 @@ function coffeeIndex(element, index, array) {
 function coffeeSearch(coffeeName) {
   if (coffees.includes(coffeeName) === true) {
     alert(
-      `Ваш любимый ${coffeeName}. Он ${coffees.findIndex(coffeeIndex) + 1}`
+      `Ваш любимый ${coffeeName}. Он ${
+        coffees.findIndex(coffeeIndex) + 1
+      }-ый по популярности в нашей кофейне`
     );
+  } else {
+    alert("Такого вида кофе нет...");
   }
 }
 
